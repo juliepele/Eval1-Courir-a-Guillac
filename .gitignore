@@ -1,0 +1,5 @@
+#répertoire node_module ignoré
+node_modules/
+
+#Tous les fichiers dans le répertoire cache ignorés
+cache/
