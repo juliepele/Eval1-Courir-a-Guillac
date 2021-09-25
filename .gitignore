@@ -3,3 +3,6 @@ node_modules/
 
 #Tous les fichiers dans le répertoire cache ignorés
 cache/
+
+#répertoire .vscode ignoré
+.vscode/

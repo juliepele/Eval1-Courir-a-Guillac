@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&family=Barlow:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Lato&family=Roboto&display=swap');
+
+:root {
+  --color-midnight-blue: #16253d;
+  --color-dusk: #002C54;
+  --color-golden: #efb509;
+  --color-bronze: #cd7213;
+  --color-white: #ffffff;
+  --color-text: #272b2e;
+  --color-lightblue: #0DCAF0;
+}
+
+* {
+  font-family: 'Barlow', -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  box-sizing: border-box;
+  color: var(--color-text);
+}
+
+/*Navbar*/
+.navbar, .footer {
+  background-color: var(--color-midnight-blue);
+  height: auto;
+  width: 100%;
+}
+
+.text-justify {
+  text-align : justify ;
+}
+
+.menu {
+  color: var(--color-bronze);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-link, .link-info, .contact-asso {
+  color: var(--color-bronze); 
+}
+
+.nav-link:hover, .link-info:hover, .footer-basic ul a:hover, .card-link:hover {
+  color: var(--color-golden);
+  font-weight: 700;
+}
+
+.nav-link:visited, .link-info:visited, .footer-basic ul a:visited, .card-link:visited {
+  color: var(--color-golden);
+}
+
+.adhesion, .btn-info {
+  background-color: var(--color-golden);
+  color: var(--color-midnight-blue)
+}
+
+.adhesion:hover, .adhesion-bis:hover {
+  color: var(--color-dusk);
+}
+
+
