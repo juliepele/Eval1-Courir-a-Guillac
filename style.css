@@ -61,7 +61,32 @@
   background: rgba(0,0,0, .1);
 }
 
+/*Footer*/
+.footer-basic {
+  background-color: var(--color-midnight-blue);
+  color: var(--color-bronze);
+}
 
+.footer-basic ul {
+  list-style: none;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-basic .copyright {
+  font-size: 0.7rem;
+  opacity: 0.8;
+}
+
+.adhesion-bis {
+  font-size: 0.6rem;
+  background: var(--color-golden);
+  color: var(--color-midnight-blue)
+}
+/*Fin Footer*/
 
 
 
