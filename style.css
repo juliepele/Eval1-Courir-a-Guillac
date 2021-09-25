@@ -17,16 +17,17 @@
   color: var(--color-text);
 }
 
-/*Navbar*/
+.text-justify {
+  text-align : justify;
+}
+/*Navbar et footer*/
 .navbar, .footer {
   background-color: var(--color-midnight-blue);
   height: auto;
   width: 100%;
 }
 
-.text-justify {
-  text-align : justify ;
-}
+
 
 .menu {
   color: var(--color-bronze);
@@ -56,4 +57,17 @@
   color: var(--color-dusk);
 }
 
+.breadcrumb-content {
+  background: rgba(0,0,0, .1);
+}
 
+
+
+
+
+
+@media screen and (max-width: 769px) {
+  .breadcrumb-content {
+    display: none;
+  }
+}
