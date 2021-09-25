@@ -6,7 +6,7 @@
   --color-golden: #efb509;
   --color-bronze: #cd7213;
   --color-white: #ffffff;
-  --color-text: #272b2e;
+  --color-text: #282828;
   --color-lightblue: #0DCAF0;
 }
 
@@ -14,11 +14,20 @@
   font-family: 'Barlow', -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 18px;
   box-sizing: border-box;
+  color: var(--color-text)
 }
 
 .text-justify {
   text-align : justify;
 }
+
+.btn {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: barlow condensed;
+  box-shadow: -4.5px 4.5px 0 rgba(34, 34, 34, 0.181);
+}
+
 /*Navbar et footer*/
 .navbar, .footer {
   background-color: var(--color-midnight-blue);
@@ -32,16 +41,16 @@
   font-weight: 700;
 }
 
-.nav-link, .link-info, .foot-link, .contact-asso {
+.nav-link, .link-info, .foot-link, .contact-link {
   color: var(--color-bronze); 
 }
 
-.nav-link:hover, .foot-link:hover, .link-info:hover, .card-link:hover {
+.nav-link:hover, .foot-link:hover, .link-info:hover, .contact-link:hover {
   color: var(--color-golden);
   font-weight: 700;
 }
 
-.nav-link:visited, .foot-link:visited, .link-info:visited, .card-link:visited {
+.nav-link:visited, .foot-link:visited, .link-info:visited, .contact-link:visited {
   color: var(--color-golden);
 }
 
@@ -94,7 +103,7 @@ header {
 
 .home-title {
   font-family: barlow condensed;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
   color: var(--color-dusk);
   text-shadow: 1.5px 1.5px 0 #cd7213;
@@ -110,6 +119,60 @@ header {
   left: 50%;
   box-sizing: border-box;
   background-color: rgba(255,255,255,0.65);
+}
+
+/*sections (mod-) page accueil*/
+h2 {
+  font-family: barlow condensed, sans-serif;
+  text-transform: uppercase;
+  color: var(--color-bronze);
+  border-bottom: 1px solid rgba(22,37,61,.4) ;
+}
+
+/*mod-evenements*/
+.mod-evenements{
+background-image: url(ressources/img/bg-events-nb.jpg);
+}
+
+.evts {
+  background-color: rgba(255,255,255,0.80);
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: var(--color-dusk);
+  text-align: center;
+}
+h6 {
+  color: var(--color-dusk);
+  text-align: center;
+}
+
+.seances {
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.new {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--color-golden);
+  text-shadow: 1.5px 1.5px 0 #002C54;
+}
+
+/*mod-contact*/
+.mod-contact {
+  background-image: url(ressources/img/bg-contact-sm.jpg);
+}
+
+.contact {
+  background-color: rgba(255,255,255,0.60);
+}
+
+.sensations {
+  font-family: barlow condensed;
 }
 
 
