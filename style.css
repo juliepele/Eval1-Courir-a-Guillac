@@ -28,6 +28,14 @@
   box-shadow: -4.5px 4.5px 0 rgba(34, 34, 34, 0.181);
 }
 
+h2 {
+  font-family: barlow condensed, sans-serif;
+  font-size: 46px;
+  text-transform: uppercase;
+  color: var(--color-bronze);
+  border-bottom: 1px solid rgba(22,37,61,.4) ;
+}
+
 /*Navbar et footer*/
 .navbar, .footer {
   background-color: var(--color-midnight-blue);
@@ -121,14 +129,7 @@ header {
   background-color: rgba(255,255,255,0.65);
 }
 
-/*sections (mod-) page accueil*/
-h2 {
-  font-family: barlow condensed, sans-serif;
-  font-size: 46px;
-  text-transform: uppercase;
-  color: var(--color-bronze);
-  border-bottom: 1px solid rgba(22,37,61,.4) ;
-}
+/*Page accueil*/
 
 /*mod-evenements*/
 .mod-evenements{
@@ -168,7 +169,7 @@ h6 {
   background-image: url(ressources/img/bg-contact-sm.jpg);
 }
 
-.contact, .articles, .sponsors {
+.contact, .articles{
   background-color: rgba(255,255,255,0.60);
 }
 
@@ -176,7 +177,9 @@ h6 {
   font-family: barlow condensed;
 }
 
-/*page Association*/
+/*Page Association*/
+
+/*mod-maintenant*/
 .mod-maintenant, .team {
   background-color: #f1f1f1;
 }
@@ -200,9 +203,8 @@ h6 {
 }
 
 /*mod-partenaires*/
-
-.mod-partners {
-  background-image: url(ressources/img/bg-partners-ok.jpg);
+.mod-articles {
+  background-image: url(ressources/img/bg-articles.jpg);
 }
 
 .logo-partenaires {
@@ -219,7 +221,136 @@ h6 {
   line-height: 40px;;
 }
 
+/*page Evenements*/
 
+.running-title {
+  color: var(--color-bronze);
+  font-weight: 700;
+  font-size: 1.5rem;
+
+}
+
+.rando_title {
+  color: var(--color-dusk);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.nocturne {
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--color-dusk);
+}
+
+.bootcamp-title {
+  color: var(--color-lightblue);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.progress-participants-running {
+  background-color: var(--color-bronze);
+}
+
+.progress-bar-rando {
+  background-color: var(--color-dusk);
+}
+
+.progress-bar-bootcamp {
+  background-color: var(--color-lightblue);
+}
+
+.participants-color {
+  color: var(--color-dusk);
+}
+
+.rando-title {
+  color: var(--color-dusk);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.nocturne {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.bootcamp-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+.evts-card {
+  font-size: 0.2rem;
+}
+
+
+/* Ribbon common */
+.ribbon {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	position: absolute;
+}
+.ribbon::before,
+.ribbon::after {
+	position: absolute;
+	z-index: -1;
+	content: "";
+	display: block;
+	border: 5px solid #0DCAF0;
+}
+.ribbon span {
+	position: absolute;
+	display: block;
+	width: 225px;
+	padding: 15px 0;
+	background-color: #0DCAF0;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	color: #002c54;
+	font: 700 25px/1 "barlow", sans-serif;
+	text-shadow: 0 1px 1px rgba(239, 181, 9, 1);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/* top right*/
+.ribbon-top-right {
+	top: -10px;
+	right: -10px;
+}
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+	border-top-color: transparent;
+	border-right-color: transparent;
+}
+.ribbon-top-right::before {
+	top: 0;
+	left: 0;
+}
+.ribbon-top-right::after {
+	bottom: 0;
+	right: 0;
+}
+.ribbon-top-right span {
+	left: -25px;
+	top: 30px;
+	transform: rotate(45deg);
+}
+
+.mod-partners {
+  background-image: url(ressources/img/bg-partners.jpg);
+}
+
+/*.partners-logo {
+  display: inline-flex;
+  width : 20%;
+  height: 50%;
+}*/
 
 
 
