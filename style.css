@@ -169,7 +169,7 @@ h6 {
   background-image: url(ressources/img/bg-contact-sm.jpg);
 }
 
-.contact, .articles, .sponsors {
+.contact, .articles{
   background-color: rgba(255,255,255,0.60);
 }
 
@@ -345,6 +345,12 @@ h6 {
 .mod-partners {
   background-image: url(ressources/img/bg-partners.jpg);
 }
+
+/*.partners-logo {
+  display: inline-flex;
+  width : 20%;
+  height: 50%;
+}*/
 
 
 
