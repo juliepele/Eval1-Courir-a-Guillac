@@ -239,9 +239,11 @@ h6 {
 .nocturne {
   font-size: 1rem;
   font-style: italic;
+  color: var(--color-dusk);
 }
 
 .bootcamp-title {
+  color: var(--color-lightblue);
   font-weight: 700;
   font-size: 1.5rem;
 }
@@ -260,10 +262,9 @@ h6 {
 
 .participants-color {
   color: var(--color-dusk);
-  font-size: 1.5rem;
 }
 
-.rando_title {
+.rando-title {
   color: var(--color-dusk);
   font-weight: 700;
   font-size: 1.5rem;
@@ -281,6 +282,10 @@ h6 {
 
 .card-img-top {
   height: 200px;
+}
+
+.evts-card {
+  font-size: 0.2rem;
 }
 
 
