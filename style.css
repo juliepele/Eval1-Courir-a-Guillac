@@ -177,10 +177,31 @@ h6 {
 }
 
 /*page Association*/
-.mod-maintenant {
+.mod-maintenant, .team {
   background-color: #f1f1f1;
 }
 
+.team-title {
+  font-size: 30px;
+  color: var(--color-dusk);
+  font-family: barlow condensed;
+}
+
+.team-quote {
+  color: var(--color-bronze);
+}
+
+.author {
+  font-size: 0.9rem;
+}
+
+.card_transform:hover {
+  transform: scale(1.1);
+}
+
+.black {
+  background-color: #282828;
+}
 
 
 
