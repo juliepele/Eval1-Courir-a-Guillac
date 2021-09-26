@@ -124,6 +124,7 @@ header {
 /*sections (mod-) page accueil*/
 h2 {
   font-family: barlow condensed, sans-serif;
+  font-size: 46px;
   text-transform: uppercase;
   color: var(--color-bronze);
   border-bottom: 1px solid rgba(22,37,61,.4) ;
