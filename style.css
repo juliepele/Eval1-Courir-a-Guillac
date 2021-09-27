@@ -374,3 +374,9 @@ h6 {
     height: 40%;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .success, .reset {
+    font-size: 12px;
+  }
+}
