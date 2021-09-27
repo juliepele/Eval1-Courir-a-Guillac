@@ -83,7 +83,11 @@ h2 {
 
 .footer-basic .copyright {
   font-size: 0.7rem;
-  opacity: 0.8;
+}
+
+.copyright {
+  color: var(--color-bronze);
+  opacity: 0.5;
 }
 
 .adhesion-bis {
@@ -357,6 +361,10 @@ h6 {
 @media screen and (max-width: 769px) {
   .breadcrumb-content {
     display: none;
+
+    .media-screen {
+      margin-top: 0.8rem;
+    }
   }
 }
 
@@ -371,3 +379,39 @@ h6 {
     text-align: center;
   }
 }
+
+
+@media screen and (max-width: 472px) {
+  .asso-title {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-midnight-blue);
+    text-shadow: -1px 1px 0 #cd7213;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .evts_title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-midnight-blue);
+    text-shadow: -1px 1px 0 #cd7213;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  .img-media {
+    margin-top: 1rem;
+    width: 50%;
+    heigh: 50%;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  .text-media {
+    line-height: 0.5rem;
+  }
