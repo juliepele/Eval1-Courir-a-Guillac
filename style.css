@@ -184,7 +184,7 @@ h6 {
 /*Page Association*/
 
 /*mod-maintenant*/
-.mod-maintenant, .team {
+.mod-maintenant, .team, .bg-gris {
   background-color: #f1f1f1;
 }
 
@@ -372,5 +372,11 @@ h6 {
   .img-partners {
     width: 40%;
     height: 40%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .success, .reset {
+    font-size: 12px;
   }
 }
