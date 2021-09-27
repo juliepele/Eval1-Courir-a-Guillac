@@ -58,9 +58,9 @@ h2 {
   font-weight: 700;
 }
 
-.nav-link:visited, .foot-link:visited, .link-info:visited, .contact-link:visited, .article-link:visited {
-  color: var(--color-golden);
-}
+/*.nav-link:visited, .foot-link:visited, .link-info:visited, .contact-link:visited, .article-link:visited {
+  color: var(--color-lightblue);
+}*/
 
 .adhesion, .btn-info {
   background-color: var(--color-golden);
@@ -74,6 +74,11 @@ h2 {
 .breadcrumb-content {
   background: rgba(0,0,0, .1);
 }
+
+#active-ok {
+  color: var(--color-golden);
+}
+
 
 /*Footer*/
 .footer-basic {
@@ -375,8 +380,9 @@ h6 {
   }
 }
 
-@media screen and (max-width: 576px) {
-  .success, .reset {
-    font-size: 12px;
+@media screen and (max-width: 1200px) {
+  .form-btn {
+    width: 40%;
+    font-size: 0.8rem;
   }
 }
