@@ -37,7 +37,8 @@ h2 {
 }
 
 /*Navbar et footer*/
-.navbar, .footer {
+.navbar,
+.footer {
   background-color: var(--color-midnight-blue);
   height: auto;
   width: 100%;
@@ -49,11 +50,19 @@ h2 {
   font-weight: 700;
 }
 
-.nav-link, .link-info, .foot-link, .contact-link, .article-link {
+.nav-link, 
+.link-info, 
+.foot-link, 
+.contact-link, 
+.article-link {
   color: var(--color-bronze); 
 }
 
-.nav-link:hover, .foot-link:hover, .link-info:hover, .contact-link:hover, .article-link:hover {
+.nav-link:hover, 
+.foot-link:hover, 
+.link-info:hover, 
+.contact-link:hover, 
+.article-link:hover {
   color: var(--color-golden);
   font-weight: 700;
 }
@@ -62,13 +71,10 @@ h2 {
   color: var(--color-lightblue);
 }*/
 
-.adhesion, .btn-info {
+.adhesion, 
+.btn-info {
   background-color: var(--color-golden);
   color: var(--color-midnight-blue)
-}
-
-.adhesion:hover, .adhesion-bis:hover {
-  color: var(--color-dusk);
 }
 
 .breadcrumb-content {
@@ -86,7 +92,8 @@ h2 {
   color: var(--color-bronze);
 }
 
-.footer-basic .copyright {
+.footer-basic, 
+.copyright {
   font-size: 0.7rem;
 }
 
@@ -98,7 +105,6 @@ h2 {
 .adhesion-bis {
   font-size: 0.6rem;
   background: var(--color-golden);
-  color: var(--color-midnight-blue)
 }
 /*Fin Footer*/
 
@@ -124,7 +130,6 @@ header {
   text-transform: uppercase;
   color: var(--color-dusk);
   text-shadow: 1.5px 1.5px 0 #cd7213;
-  text-align: center;
 }
 
 .content-header {
@@ -137,6 +142,7 @@ header {
   box-sizing: border-box;
   background-color: rgba(255,255,255,0.65);
 }
+
 
 /*Page accueil*/
 
@@ -207,9 +213,9 @@ h6 {
   font-size: 0.9rem;
 }
 
-.card_transform:hover {
+/*.card_transform:hover {
   transform: scale(1.1);
-}
+}*/
 
 /*mod-articles*/
 .mod-articles {
@@ -384,5 +390,11 @@ h6 {
   .form-btn {
     width: 40%;
     font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card_transform:hover {
+    transform: scale(1.1);
   }
 }
