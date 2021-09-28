@@ -55,7 +55,8 @@ h2 {
 .foot-link, 
 .contact-link, 
 .article-link {
-  color: var(--color-bronze); 
+  color: var(--color-bronze);
+  text-decoration: none;
 }
 
 .nav-link:hover, 
@@ -92,9 +93,8 @@ h2 {
   color: var(--color-bronze);
 }
 
-.footer-basic, 
 .copyright {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .copyright {
@@ -103,7 +103,7 @@ h2 {
 }
 
 .adhesion-bis {
-  font-size: 0.6rem;
+  font-size: 0.9rem;
   background: var(--color-golden);
 }
 /*Fin Footer*/
